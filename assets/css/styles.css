@@ -514,9 +514,9 @@ a {
     line-height: 1.75; /* 175% */
 }
 
-.features .content .cta-btn{
+.features .content .cta-btn {
     margin-top: 32px;
     min-width: 137px;
-    color: #FFF;
+    color: #fff;
     background-color: var(--primary-color);
 }
