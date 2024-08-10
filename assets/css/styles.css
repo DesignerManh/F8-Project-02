@@ -520,3 +520,19 @@ a {
     color: #fff;
     background-color: var(--primary-color);
 }
+
+.features-2md{
+    margin-top: 70px;
+}
+.features-2md .body{
+    flex-direction: row-reverse;
+}
+
+.features-2md .content{
+    width: 49%;
+}
+
+.features-2md .images img {
+    width: 470px;
+    height: 440px;
+}
