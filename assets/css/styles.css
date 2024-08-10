@@ -102,7 +102,7 @@ a {
 }
 /* ============= Hero ============== */
 .hero {
-    padding-top: 56px;
+    padding: 56px 0 65px 0;
     background: #fffcf4;
 }
 
@@ -120,11 +120,12 @@ a {
     height: 695px;
     object-fit: cover;
     border-radius: 20px;
+    vertical-align: bottom;
 }
 
 .hero-summary {
     position: absolute;
-    padding: 28px 24px;
+    padding: 24px;
     right: 0;
     bottom: 48px;
     width: 270px;
@@ -134,6 +135,7 @@ a {
 }
 .hero-summary .item {
     display: flex;
+    align-items: center;
 }
 
 .hero-summary .item + .item {
